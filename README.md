@@ -27,7 +27,7 @@ The goal is to demonstrate SQL skills in **data exploration, aggregation, and bu
 ---
 
 ## SQL Scripts
-All SQL queries are in [``](scripts/regional_sales_analysis.sql).  
+All SQL queries are in [`Product-Regional-Sales`](scripts/Product-Regional-Sales.sql).  
 Each query is well-documented with comments.
 
 ---
