@@ -6,6 +6,14 @@
 SELECT SUM(TotalPrice) AS Total_Sales
 FROM dbo.product_region;
 
+-- 🔹 Total_Quantity_Sold
+SELECT SUM(Final_Quantity) AS Total_Quantity_Sold
+FROM dbo.product_region
+
+-- 🔹 Total Order
+SELECT COUNT(OrderID) AS Total_Order
+FROM dbo.product_region
+
 -- 🔹 Total returned items (limitation: dataset tracks returns separately)
 SELECT SUM(Returned) AS Total_Returned
 FROM dbo.product_region;
